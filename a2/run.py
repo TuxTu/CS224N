@@ -56,7 +56,7 @@ visualizeWords = [
     "great", "cool", "brilliant", "wonderful", "well", "amazing",
     "worth", "sweet", "enjoyable", "boring", "bad", "dumb",
     "annoying", "female", "male", "queen", "king", "man", "woman", "rain", "snow",
-    "hail", "coffee", "tea"]
+    "hail", "coffee", "tea", "fish", "cat", "milk", "annoyed", "book"]
 
 visualizeIdx = [tokens[word] for word in visualizeWords]
 visualizeVecs = wordVectors[visualizeIdx, :]
